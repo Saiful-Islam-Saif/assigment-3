@@ -1,0 +1,25 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.headings{
+    font-family: 'EB Garamond', serif;
+}
+.btn-primary-l {
+    background-color: #B68C5A;
+    color: white;
+}
+.text-l {
+    color: #B68C5A;
+}
+.bg-img-l{
+    background-image: 
+    /* top image*/
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 1) 100%),
+    /*bottom image*/
+    url(../images/banner.png);
+    height: 33rem;
+    background-repeat: no-repeat;
+}
+.hover-bg:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
